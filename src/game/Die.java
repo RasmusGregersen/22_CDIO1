@@ -15,8 +15,6 @@ public class Die {
 	public int getValue() {
 	return eye;
 	
-	//Go' Booty DAVE!!
-	
 	}
 	// method to roll the die (generate random value between 1 - 6)
 	public void newRoll() {
