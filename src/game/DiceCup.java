@@ -25,7 +25,7 @@ public class DiceCup {
 			return true;
 		}
 		else {
-			return false;// DAVID ER EN SVANS
+			return false;// DAVID ER EN SVANS sdasd
 		}		
 	}
 	//Method to return the sum of die1 and die2	
