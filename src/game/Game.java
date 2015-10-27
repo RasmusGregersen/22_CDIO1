@@ -37,9 +37,17 @@ public class Game {
 			// Game begins! GUI method displays 'Roll' button. 
 			GUI.getUserButtonPressed("Press to roll the dice", "Roll");
 			
+			double lStartTime = System.currentTimeMillis();
+			
 			// Calls the method for a new roll, and displays it in the GUI
 			dicecup.newRoll();
 			GUI.setDice(dicecup.getDie1(), dicecup.getDie2());
+			
+			double lEndTime = System.currentTimeMillis();
+			
+			double difference = lEndTime - lStartTime;
+			
+			System.out.println("Elapsed milliseconds : " + difference);
 
 			// If player1 just rolled, sets next turn to player2.
 			if(next == player1) {
