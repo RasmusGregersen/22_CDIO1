@@ -13,6 +13,7 @@ public class testresponsetime {
 		double lStartTime = System.currentTimeMillis();
 		
 		dicecup.newRoll();
+		GUI.setDice(dicecup.getDie1(), dicecup.getDie2());
 		
 		double lEndTime = System.currentTimeMillis();
 		
